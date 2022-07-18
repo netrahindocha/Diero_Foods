@@ -1,0 +1,285 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.left{
+    position: absolute;
+    left: 28px;
+    top: 0px;
+    display: inline-block;
+    /* border: 2px solid red; */
+    margin: 20px;
+    text-align: center;
+}
+
+.mid{
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+}
+
+.right{
+    position: absolute;
+    top: 64px;
+    right: 29px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    margin: 20px;
+    font-family: Mukta;
+}
+
+.left img{
+    width: 70%;
+}
+
+.mid div{
+    font-family: 'Allura', cursive;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+.navbar{
+    background-color: cadetblue;
+}
+
+.navbar ul{
+    overflow: auto;
+    margin: 0px;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 7px 20px;
+}
+
+#home:hover, #about-us:hover, #our-products:hover, #contact-us:hover{
+    transform: scale(1.2);
+}
+
+.navbar li a{
+    text-decoration: none;
+    padding: 3px 18px;
+    color: black;
+    font-family: Mukta;
+    font-weight: bold;
+}
+
+.navbar li a:hover{
+    /* text-decoration: underline; */
+}
+
+.right .email:hover{
+    font-weight: bold;
+    color: rgb(151, 130, 77);
+    cursor: pointer;
+}
+
+.right .call:hover{
+    font-weight: bold;
+    color: rgb(151, 130, 77);
+    cursor: pointer;
+}
+
+.navbar .linkedin{
+    display: inline-block;
+    position: absolute;
+    right: 122px;
+    top: 187px;
+}
+
+.linkedin:hover, .insta:hover, .facebook:hover{
+    transform: scale(1.2);
+}
+
+.navbar .insta{
+    display: inline-block;
+    position: absolute;
+    top: 187px;
+    right: 85px;
+}
+
+.navbar .facebook{
+    display: inline-block;
+    position: absolute;
+    top: 187px;
+    right: 51px;
+}
+
+.user{
+    /* border: 2px solid grey; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    font-family: Mukta;
+    font-weight: bold;
+}
+
+button{
+    cursor: pointer;
+}
+
+.navbar li a:active{
+    color: grey;
+}
+/* rgb(68, 48, 43) */
+
+.user .login:hover{
+    color: rgb(151, 130, 77);
+    cursor: pointer;
+}
+
+.user .cart:hover{
+    color: rgb(151, 130, 77);
+    cursor: pointer;
+}
+
+.mid div:hover{
+    color: rgb(151, 130, 77);
+}
+
+.bg img{
+    width: 100%;
+}
+
+/* Contact Us Page */
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 34px;
+    /* background: url('contact_us.jpg') no-repeat center center/cover; */
+}
+
+#contact-box h1, #contact-box h4{
+    font-family: Mukta;
+}
+
+#contact-box input[type="text"], #contact-box input[type="email"], #contact-box input[type="number"], #contact-box textarea, #contact-box select{
+    width: 100%;
+    padding: 0.2rem;
+    padding-left: 20px;
+    border-radius: 19px;
+    font-size: 1.1rem;
+    font-family: Mukta;
+    font-weight: 800;
+    color: rgb(79, 78, 78);
+    border: 2px solid black;
+}
+
+input[type="submit"]{
+    border: 2px solid black;
+    border-radius: 23px;
+    padding: 5px;
+    color: black;
+    font-family: Mukta;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 30%;
+    display: block;
+    position: relative;
+    margin: 23px auto;
+    left: 7px;
+}
+
+input[type='submit']:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: Mukta;
+    font-weight: bold;
+}
+
+/* About Us Page */
+
+/* Our Products Page */
+
+.our-products-page{
+    margin: 50px;
+}
+
+.products-title{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.vending-machine{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    align-items: center;
+    justify-content: center;
+}
+
+.beverages-mix{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rebeccapurple;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-types{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.two-lane, .three-lane, .four-lane{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid green;
+}
+
+.vending-machine-types{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blueviolet;
+}
+
+.cardamom-tea, .cardamom-masala-tea, .masala-tea, .ginger-tea, .lemon-tea, .regular-coffee, .cappuccino-coffee, .hazzlenut-coffee, .lemongrass-tea-coffee, .tulsi-tea, .vanilla-tea, .vanilla-coffee, .peach-tea, .hot-chocolate, .honey-tea, .green-tea, .strawberry-tea, .chocolate-coffee, .nimbu-pani, .sugarcane-juice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid brown;
+}
+
+.cardamom-tea:hover, .cardamom-masala-tea:hover, .masala-tea:hover, .ginger-tea:hover, .lemon-tea:hover, .regular-coffee:hover, .cappuccino-coffee:hover, .hazzlenut-coffee:hover, .lemongrass-tea-coffee:hover, .tulsi-tea:hover, .vanilla-tea:hover, .vanilla-coffee:hover, .peach-tea:hover, .hot-chocolate:hover, .honey-tea:hover, .green-tea:hover, .strawberry-tea:hover, .chocolate-coffee:hover, .nimbu-pani:hover, .sugarcane-juice:hover{
+    transform: scale(1.2);
+}
+
+.beverages-mix-title{
+    text-align: center;
+    margin: 50px;
+}
+
+.beverages-mix-types{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    border: 2px solid blue;
+}
