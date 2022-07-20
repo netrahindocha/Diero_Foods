@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <!-- Left for Logo -->
@@ -24,7 +27,9 @@
         </div>
 
         <div class="user">
-            <span class="login"><i class="fa-solid fa-user"></i>&nbsp; Log In &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="cart"><i class="fa-solid fa-cart-shopping"></i>&nbsp; Cart</span>
+            <span class="login"><i class="fa-solid fa-user"></i>&nbsp; Log In
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="cart"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Cart</span>
         </div>
 
         <!-- Right for Buttons -->
@@ -43,19 +48,93 @@
         <nav class="navbar">
             <ul>
                 <li id="home"><a href="#">Home</a></li>
-                <li id="about-us"><a href="#">About Us</a></li>
+                <li id="about-us"><a href="#about-us">About Us</a></li>
+                <li id="gallery"><a href="#">Gallery</a></li>
                 <li id="our-products"><a href="products.html">Our Products</a></li>
                 <li id="contact-us"><a href="contact.html">Contact Us</a></li>
             </ul>
-            
+
             <button class="linkedin"><i class="fa-brands fa-linkedin"></i></button>
             <button class="insta"><i class="fa-brands fa-instagram"></i></button>
             <button class="facebook"><i class="fa-brands fa-facebook-f"></i></i></button>
         </nav>
-        <div class="bg">
-            <img src="diero_bg.jpg" alt="">
-        </div>
 
     </div>
+
+    <div class="flex">
+        <div class="bg-parallax">
+            <!-- <img src="diero_bg.jpg" alt=""> -->
+        </div>
+
+        <div class="why-tea-premix" id="why-tea-premix">
+
+            <div class="tea-article">
+
+                <h2 class="tea-title">Why Tea Premix?</h2>
+
+                <p class="para1">It is manufactured with the pure ingredients like cardamom, ginger, and lemongrass provide significant health and energy benefits to the human body. It helps our body with metabolism.As a result, it acts as a medicine for those who want to lose weight. It is loaded with the antioxidants which help in liver detoxification. Regular consumption of instant green tea results in better liver function. It helps cholesterol levels. As a result, you can avoid cardiac problems such as heart attack and stroke.</p>
+
+                <p class="para2">It acts as urgent booster your body's energy levels instantly whenever you are working, travelling or simply tired. Instant premix tea, as the name indicates, is ready at the moment. To brew the instant tea premix powder, all you need is a cup of hot water. The tea premix is easy to handle and cheap when compared to the cost of tea powder, milk, and sugar when purchased separately. Premix tea is also preferable because there is no tea powder waste to dispose once it's made.<span id="dots">...</span></p>
+
+                <span id="more">
+
+                    <h3 class="tea-title">Is it healthy to drink premix tea?</h3>
+
+                    <p>Yes, because the instant teas are made from the ingredients that help the body to maintain proper metabolism, keep heart, liver, brain and other body parts healthy. The natural ingredients used in instant tea are totally safe and will never have any side effects.</p>
+                        
+
+                    <p>According to some recent study, instant tea use has been proven to have a significant great impact on type 2 diabetes, liver diseases, Alzheimer's disease, and weight loss.</p>
+
+                </span>
+                <button onclick="myFunction()" id="read-more">Read more</button>
+            </div>
+
+            <!-- <div class="tea-anime">
+                <img src="https://lottiefiles.com/78378-coffeebrownpink" alt="Image is not loading">
+            </div> -->
+
+        </div>
+
+        <div class="coffee-parallax">
+            <h2 class="coffee-quote"><span class="double-quotes">&ldquo;</span> Good ideas start with brainstorming thoughts. Great ideas start with <span class="bold">Coffee</span>.<span class="double-quotes">&rdquo;</span></h2>
+        </div>
+
+        <div class="tea-plant">
+            <!-- <img src="tea_plant.jpg" alt=""> -->
+            <span class="tea-plant-heading">WE CARE FOR YOU</span>
+        </div>
+
+        <div class="about-us" id="about-us">
+
+            <div class="right-align">
+
+                <h2 class="about-company our-values">OUR VALUES</h2>
+                <p class="para1"><strong>MISSION:</strong> Our mission Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis magnam accusantium vel perspiciatis a exercitationem temporibus repudiandae recusandae sapiente nihil.</p>
+
+                <p class="para2"><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque blanditiis ad, distinctio repellendus dolor pariatur aspernatur! Minus eligendi nobis quod numquam, ea aliquam ipsum aperiam ab repudiandae iusto eos ex itaque laborum animi iure.</p>
+
+            </div>
+
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("read-more");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+
 </body>
+
 </html>
