@@ -62,7 +62,7 @@ header{
     margin: 7px 20px;
 }
 
-#home:hover, #about-us:hover, #our-products:hover, #contact-us:hover{
+#home:hover, #about-us:hover, #gallery:hover, #our-products:hover, #contact-us:hover{
     transform: scale(1.2);
 }
 
@@ -71,7 +71,7 @@ header{
     padding: 3px 18px;
     color: black;
     font-family: Mukta;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .navbar li a:hover{
@@ -148,8 +148,129 @@ button{
     color: rgb(151, 130, 77);
 }
 
-.bg img{
+.bg-parallax{
+    background-image: url('diero_bg.jpg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Flex section */
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Why Tea Premix Section */
+
+.why-tea-premix{
+    background-color: black;
+    color: white;
+    padding: 0px 50px;
+    text-align: justify;
+    /* font-family: Mukta; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tea-title{
+    color: cadetblue;
+}
+
+#more{
+    display: none;
+}
+
+#read-more{
+    margin-bottom: 15px;
+    background-color: cadetblue;
+    color: black;
+    padding: 7px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#read-more:hover{
+    background-color: rgb(177, 177, 177);
+    color: black;
+}
+
+/* Coffee Parallax Section */
+
+.coffee-parallax{
+    background-image: url('coffee_parallax.jpg');
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.double-quotes{
+    color: rgb(188, 188, 188);
+    font-size: 50px;
+}
+
+.coffee-quote{
+    background-color: #635C56;
+    width: 20%;
+    color: white;
+    font-size: 43px;
+    padding: 30px;
+    margin-left: 35px;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Tinos', serif;
+}
+
+.bold{
+    font-style: italic;
+    /* font-family: Allura; */
+    font-size: 47px;
+}
+
+/* We Care Section */
+
+.tea-plant-heading{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    opacity: 1;
+    position: relative;
+    top: 230px;
+    left: 600px;
+}
+
+.tea-plant{
+    background-image: url('tea_plant.jpg') ;
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+
+
+.tea-plant img{
     width: 100%;
+}
+
+.black_bg{
+    background-color: black;
+}
+
+/* About Us Section */
+
+.about-us{
+    background-color: cadetblue;
+    
 }
 
 /* Contact Us Page */
@@ -207,8 +328,6 @@ input[type='submit']:hover{
     font-family: Mukta;
     font-weight: bold;
 }
-
-/* About Us Page */
 
 /* Our Products Page */
 
