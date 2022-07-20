@@ -241,7 +241,6 @@ button{
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 10px;
-    opacity: 1;
     position: relative;
     top: 230px;
     left: 600px;
@@ -253,10 +252,7 @@ button{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8;
 }
-
-
 
 .tea-plant img{
     width: 100%;
@@ -268,7 +264,7 @@ button{
 
 /* About Us Section */
 
-.about-us{
+.about-section{
     background-color: cadetblue;
     
 }
