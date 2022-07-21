@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+/* Color Palette */
+
+    /* background-color: #3D2D1F; */
+    /* background-color: #DDD5B4; */
+    /* background-color: #A2987D; */
+    /* background-color: #94847C; */
+
 .header{
     display: flex;
     flex-direction: column;
@@ -11,7 +18,6 @@
 .user{
     display: flex;
     justify-content: flex-start;
-    margin-right: 60px;
     margin-top: 0px;
     margin-bottom: 20px;
     font-weight: bold;
@@ -37,9 +43,8 @@
     font-family: 'Allura', cursive;
     font-size: 60px;
     color: white;
-    text-align: center;
     margin-top: 15px;
-    margin-right: 50px;
+    margin-right: 250px;
 }
 
 .logo{
@@ -70,23 +75,29 @@
 }
 
 .navbar{
-    background-color: cadetblue;
+    /* background-color: #6c534e; */
+    /* background-color: #9D9171; */
+    background-color: #8b8164;
+    /* background-color: #937D64; */
+    /* background-color: #553a41; */
+    /* background-color: rgb(138, 164, 161); */
     position: sticky;
     top: 0;
 }
 
 .logo{
-top: 0px;
-padding: 0;
-margin-left: 100px;
-margin-top: 10px;
-margin-bottom: 10px;
-height: 140px;
+    top: 0px;
+    padding: 0;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 140px;
 }
 
 .navbar ul{
     overflow: auto;
-    margin: 0px; 
+    margin: 0px;
+    margin-left: 40px; 
 }
 
 .navbar li{
@@ -97,14 +108,16 @@ height: 140px;
 
 .navbar li a{
     text-decoration: none;
-    padding: 3px 18px;
+    padding: 8px 18px;
     color: black;
-    font-family: Mukta;
-    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-weight: bold; */
+    text-transform: uppercase;
 }
 
-#home:hover, #about-us:hover, #gallery:hover, #our-products:hover, #contact-us:hover{
-    transform: scale(1.2);
+.navbar li a:hover{
+    background-color: #3D2D1F;
+    color: white;
 }
 
 .email:hover, .email-us:hover, .call:hover, .call-us:hover{
@@ -211,7 +224,7 @@ button{
 }
 
 .tea-title{
-    color: cadetblue;
+    color: #94847C;
     padding: 20px 0px;
     font-size: 30px;
 }
@@ -231,7 +244,7 @@ button{
 
 #read-more{
     margin: 15px 0px;
-    background-color: cadetblue;
+    background-color: #94847C;
     color: black;
     padding: 7px;
     font-size: 18px;
@@ -266,8 +279,11 @@ button{
     background-color: #635C56;
     width: 20%;
     color: white;
+    text-align: center;
     font-size: 43px;
-    padding: 30px;
+    padding: 20px;
+    padding-bottom: 25px;
+    padding-left: 15px;
     margin-left: 35px;
     margin-top: 35px;
     text-shadow: 2px 2px 4px #000000;
@@ -291,6 +307,7 @@ button{
     position: relative;
     top: 230px;
     left: 600px;
+    opacity: 0.7;
 }
 
 .tea-plant{
@@ -312,7 +329,7 @@ button{
 /* About Us Section */
 
 .about-section{
-    background-color: cadetblue;
+    background-color: #A2987D;
     
 }
 
