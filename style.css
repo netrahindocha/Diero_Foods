@@ -5,10 +5,12 @@
 
 /* Color Palette */
 
-    /* background-color: #3D2D1F; */
-    /* background-color: #DDD5B4; */
-    /* background-color: #A2987D; */
-    /* background-color: #94847C; */
+/* colors{
+    background-color: #3D2D1F;
+    background-color: #DDD5B4;
+    background-color: #A2987D;
+    background-color: #94847C;
+} */
 
 .header{
     display: flex;
@@ -23,18 +25,18 @@
     font-weight: bold;
 }
 
-.info{
+/* .info{
     display: flex;
     flex-direction: column;
     margin-right: 60px;
     margin-top: 60px;
     padding: 10px;
-}
+} */
 
-.right-box{
+/* .right-box{
     display: flex;
     flex-direction: column;
-}
+} */
 
 .diero-title{
     display: flex;
@@ -64,15 +66,15 @@
     padding-left: 30px;
 }
 
-.email, .call{
+/* .email, .call{
     padding: 3px;
     padding-left: 5px;
     padding-right: 5px;
-}
+} */
 
-.email{
+/* .email{
     margin-bottom: 5px;
-}
+} */
 
 .navbar{
     /* background-color: #6c534e; */
@@ -120,55 +122,55 @@
     color: white;
 }
 
-.email:hover, .email-us:hover, .call:hover, .call-us:hover{
+/* .email:hover, .email-us:hover, .call:hover, .call-us:hover{
     font-weight: bold;
     color: rgb(151, 130, 77);
     cursor: pointer;
-}
+} */
 
 .diero-title:hover{
     color: rgb(151, 130, 77);
 }
 
-.navbar .linkedin{
+/* .navbar .linkedin{
     display: inline-block;
     position: absolute;
     right: 122px;
     top: 7px;
-}
+} */
 
-.navbar .insta{
+/* .navbar .insta{
     display: inline-block;
     position: absolute;
     top: 7px;
     right: 85px;
-}
+} */
 
-.navbar .facebook{
+/* .navbar .facebook{
     display: inline-block;
     position: absolute;
     top: 7px;
     right: 49px;
-}
+} */
 
-.linkedin:hover, .insta:hover, .facebook:hover{
+/* .linkedin:hover, .insta:hover, .facebook:hover{
     transform: scale(1.2);
-}
+} */
 
-.linkedin i{
+/* .linkedin i{
     transform: scale(1.5);
     padding: 5px 6.5px;
-}
+} */
 
-.insta i{
+/* .insta i{
     transform: scale(1.4);
     padding: 5px 6.5px;
-}
+} */
 
-.facebook i{
+/* .facebook i{
     transform: scale(1.5);
     padding: 5px 8px;
-}
+} */
 
 .user{
     /* border: 2px solid grey; */
@@ -290,7 +292,7 @@ button{
     font-family: 'Tinos', serif;
 }
 
-.bold{
+.italic{
     font-style: italic;
     /* font-family: Allura; */
     font-size: 47px;
