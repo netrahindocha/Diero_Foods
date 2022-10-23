@@ -1,0 +1,55 @@
+/* CONTACT US PAGE */
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 34px;
+    /* background: url('contact_us.jpg') no-repeat center center/cover; */
+}
+
+#contact-box h1, #contact-box h4{
+    font-family: Mukta;
+}
+
+#contact-box input[type="text"], #contact-box input[type="email"], #contact-box input[type="number"], #contact-box textarea, #contact-box select{
+    width: 100%;
+    padding: 0.2rem;
+    padding-left: 20px;
+    border-radius: 19px;
+    font-size: 1.1rem;
+    font-family: Mukta;
+    font-weight: 800;
+    color: rgb(79, 78, 78);
+    border: 2px solid black;
+}
+
+input[type="submit"]{
+    border: 2px solid black;
+    border-radius: 23px;
+    padding: 5px;
+    color: black;
+    font-family: Mukta;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 30%;
+    display: block;
+    position: relative;
+    margin: 23px auto;
+    left: 7px;
+}
+
+input[type='submit']:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: Mukta;
+    font-weight: bold;
+}

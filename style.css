@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Mukta;
 }
 
 /* Color Palette */
@@ -12,91 +13,82 @@
     background-color: #94847C;
 } */
 
-.header{
-    display: flex;
-    flex-direction: column;
-}
 
-.user{
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
-/* .info{
-    display: flex;
-    flex-direction: column;
-    margin-right: 60px;
-    margin-top: 60px;
-    padding: 10px;
-} */
-
-/* .right-box{
-    display: flex;
-    flex-direction: column;
-} */
-
-.diero-title{
-    display: flex;
-    padding: 30px;
-    text-align: center;
-    font-family: 'Allura', cursive;
-    font-size: 60px;
-    color: white;
-    margin-top: 15px;
-    margin-right: 250px;
-}
-
-.logo{
-    display: flex;
-    
-}
+/* HEADER SECTION */
 
 .container{
     display: flex;
     justify-content: space-between;
     background-color: black;
     color: white;
-    font-family: Mukta;
-}
-
-.cart{
-    padding-left: 30px;
-}
-
-/* .email, .call{
-    padding: 3px;
-    padding-left: 5px;
-    padding-right: 5px;
-} */
-
-/* .email{
-    margin-bottom: 5px;
-} */
-
-.navbar{
-    /* background-color: #6c534e; */
-    /* background-color: #9D9171; */
-    background-color: #8b8164;
-    /* background-color: #937D64; */
-    /* background-color: #553a41; */
-    /* background-color: rgb(138, 164, 161); */
-    position: sticky;
-    top: 0;
 }
 
 .logo{
-    top: 0px;
-    padding: 0;
-    margin-left: 100px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 140px;
+    margin-left: 2.5em;
+    display: flex;
+    align-items: center;
+    padding: 0.2em 0em;
 }
 
-.navbar ul{
+.logo img{
+    width: 9vw;
+    height: auto;
+    cursor: pointer;
+}
+
+.diero-title{
+    font-family: 'Allura', cursive;
+    font-size: 60px;
+    font-size: 5vw;
+    display: flex;
+    align-items: center;
+    padding: 0em 1em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.user{
+    display: flex;
+    margin-right: 2.5em;
+    margin-right: 2.5vw;
+}
+
+.login, .cart{
+    font-weight: bold;
+    padding: 1em 1em;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.diero-title:hover{
+    color: rgb(151, 130, 77);
+}
+
+.user .login:hover{
+    color: rgb(151, 130, 77);
+    cursor: pointer;
+}
+
+.user .cart:hover{
+    color: rgb(151, 130, 77);
+    cursor: pointer;
+}
+
+/* NAVBAR SECTION */
+
+/* .navbar{
+    background-color: #6c534e;
+    background-color: #9D9171;
+    background-color: #937D64;
+    background-color: #553a41;
+    background-color: rgb(138, 164, 161);
+
+    background-color: #8b8164;
+    position: sticky;
+    top: 0;
+} */
+
+/* .navbar ul{
     overflow: auto;
     margin: 0px;
     margin-left: 40px; 
@@ -113,94 +105,20 @@
     padding: 8px 18px;
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* font-weight: bold; */
     text-transform: uppercase;
 }
 
 .navbar li a:hover{
     background-color: #3D2D1F;
     color: white;
-}
-
-/* .email:hover, .email-us:hover, .call:hover, .call-us:hover{
-    font-weight: bold;
-    color: rgb(151, 130, 77);
-    cursor: pointer;
 } */
-
-.diero-title:hover{
-    color: rgb(151, 130, 77);
-}
-
-/* .navbar .linkedin{
-    display: inline-block;
-    position: absolute;
-    right: 122px;
-    top: 7px;
-} */
-
-/* .navbar .insta{
-    display: inline-block;
-    position: absolute;
-    top: 7px;
-    right: 85px;
-} */
-
-/* .navbar .facebook{
-    display: inline-block;
-    position: absolute;
-    top: 7px;
-    right: 49px;
-} */
-
-/* .linkedin:hover, .insta:hover, .facebook:hover{
-    transform: scale(1.2);
-} */
-
-/* .linkedin i{
-    transform: scale(1.5);
-    padding: 5px 6.5px;
-} */
-
-/* .insta i{
-    transform: scale(1.4);
-    padding: 5px 6.5px;
-} */
-
-/* .facebook i{
-    transform: scale(1.5);
-    padding: 5px 8px;
-} */
-
-.user{
-    /* border: 2px solid grey; */
-    display: inline-block;
-    position: absolute;
-    top: 20px;
-    right: 50px;
-    font-family: Mukta;
-    font-weight: bold;
-}
-
-button{
-    cursor: pointer;
-}
-
-.user .login:hover{
-    color: rgb(151, 130, 77);
-    cursor: pointer;
-}
-
-.user .cart:hover{
-    color: rgb(151, 130, 77);
-    cursor: pointer;
-}
 
 /* rgb(68, 48, 43) */
 
-/* Flex section */
 
-.bg-parallax{
+/* BACKGROUND PARALLAX SECTION */
+
+/* .bg-parallax{
     background-image: url('diero_bg.jpg');
     min-height: 500px;
     background-attachment: fixed;
@@ -212,16 +130,17 @@ button{
 .flex{
     display: flex;
     flex-direction: column;
-}
+} */
 
-/* Why Tea Premix Section */
 
-.why-tea-premix{
+/* ARTICLE SECTION */
+
+/* .why-tea-premix{
     background-color: black;
     color: white;
     padding: 0px 50px;
     text-align: justify;
-    /* font-family: Mukta; */
+    font-family: Mukta;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -238,9 +157,12 @@ button{
 
 .para2-tea{
     font-size: 20px;
-}
+} */
 
-#more{
+
+/* HIDDEN ARTICLE SECTION */
+
+/* #more{
     display: none;
 }
 
@@ -258,11 +180,12 @@ button{
 #read-more:hover{
     background-color: rgb(177, 177, 177);
     color: black;
-}
+} */
 
-/* Coffee Parallax Section */
 
-.coffee-parallax{
+/* COFFEE AND QUOTES SECTION */
+
+/* .coffee-parallax{
     background-image: url('coffee_parallax.jpg');
     min-height: 600px;
     background-attachment: fixed;
@@ -293,14 +216,15 @@ button{
 }
 
 .italic{
+    font-family: Allura;
     font-style: italic;
-    /* font-family: Allura; */
     font-size: 47px;
-}
+} */
 
-/* We Care Section */
 
-.tea-plant-heading{
+/* WE CARE SECTION */
+
+/* .tea-plant-heading{
     background-color: black;
     color: white;
     font-size: 40px;
@@ -326,141 +250,12 @@ button{
 
 .black_bg{
     background-color: black;
-}
+} */
 
-/* About Us Section */
 
-.about-section{
+/* OUR VALUES SECTION */
+
+/* .about-section{
     background-color: #A2987D;
     
-}
-
-/* Contact Us Page */
-
-#contact-box form{
-    width: 40%;
-}
-
-#contact-box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 34px;
-    /* background: url('contact_us.jpg') no-repeat center center/cover; */
-}
-
-#contact-box h1, #contact-box h4{
-    font-family: Mukta;
-}
-
-#contact-box input[type="text"], #contact-box input[type="email"], #contact-box input[type="number"], #contact-box textarea, #contact-box select{
-    width: 100%;
-    padding: 0.2rem;
-    padding-left: 20px;
-    border-radius: 19px;
-    font-size: 1.1rem;
-    font-family: Mukta;
-    font-weight: 800;
-    color: rgb(79, 78, 78);
-    border: 2px solid black;
-}
-
-input[type="submit"]{
-    border: 2px solid black;
-    border-radius: 23px;
-    padding: 5px;
-    color: black;
-    font-family: Mukta;
-    font-weight: bold;
-    font-size: 1.2rem;
-    width: 30%;
-    display: block;
-    position: relative;
-    margin: 23px auto;
-    left: 7px;
-}
-
-input[type='submit']:hover{
-    background-color: grey;
-    cursor: pointer;
-}
-
-#contact-box label{
-    font-size: 1.3rem;
-    font-family: Mukta;
-    font-weight: bold;
-}
-
-/* Our Products Page */
-
-.our-products-page{
-    margin: 50px;
-}
-
-.products-title{
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.vending-machine{
-    display: flex;
-    flex-direction: column;
-    border: 2px solid red;
-    align-items: center;
-    justify-content: center;
-}
-
-.beverages-mix{
-    display: flex;
-    flex-direction: column;
-    border: 2px solid rebeccapurple;
-    align-items: center;
-    justify-content: center;
-}
-
-.main-types{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid black;
-}
-
-.two-lane, .three-lane, .four-lane{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid green;
-}
-
-.vending-machine-types{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid blueviolet;
-}
-
-.cardamom-tea, .cardamom-masala-tea, .masala-tea, .ginger-tea, .lemon-tea, .regular-coffee, .cappuccino-coffee, .hazzlenut-coffee, .lemongrass-tea-coffee, .tulsi-tea, .vanilla-tea, .vanilla-coffee, .peach-tea, .hot-chocolate, .honey-tea, .green-tea, .strawberry-tea, .chocolate-coffee, .nimbu-pani, .sugarcane-juice{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid brown;
-}
-
-.cardamom-tea:hover, .cardamom-masala-tea:hover, .masala-tea:hover, .ginger-tea:hover, .lemon-tea:hover, .regular-coffee:hover, .cappuccino-coffee:hover, .hazzlenut-coffee:hover, .lemongrass-tea-coffee:hover, .tulsi-tea:hover, .vanilla-tea:hover, .vanilla-coffee:hover, .peach-tea:hover, .hot-chocolate:hover, .honey-tea:hover, .green-tea:hover, .strawberry-tea:hover, .chocolate-coffee:hover, .nimbu-pani:hover, .sugarcane-juice:hover{
-    transform: scale(1.2);
-}
-
-.beverages-mix-title{
-    text-align: center;
-    margin: 50px;
-}
-
-.beverages-mix-types{
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    border: 2px solid blue;
-}
+} */
