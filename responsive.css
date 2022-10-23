@@ -1,0 +1,30 @@
+@media screen and (max-width: 800px) {
+    
+    .container{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+
+    .container .diero-title{
+        font-size: 12vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo img{
+        padding-top: 1em;
+    }
+
+    .user{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .login, .cart{
+        /* border: 1px solid blue; */
+        font-size: 0.8em;
+    }
+}
