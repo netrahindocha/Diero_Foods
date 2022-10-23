@@ -16,6 +16,7 @@
 
     .logo img{
         padding-top: 1em;
+        width: 18%;
     }
 
     .user{
@@ -24,7 +25,6 @@
     }
 
     .login, .cart{
-        /* border: 1px solid blue; */
-        font-size: 0.8em;
+        font-size: 4vw;
     }
 }
